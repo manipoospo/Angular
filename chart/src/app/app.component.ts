@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'my-app',
+    template: `
+                <h1>{{ fullName }}</h1>
+              `
 })
 export class AppComponent {
-  title = 'chart';
+    fullName: string = 'Martin Luther King Jr';
 }

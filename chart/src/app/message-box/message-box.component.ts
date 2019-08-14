@@ -7,12 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessageBoxComponent implements OnInit {
   value={
-    name:'poomani'
+    name:'poomani',
+    element1:10,
+    element2:10,
+   
+   
+
   }
+  element2: any;
 
   constructor() { }
 
   ngOnInit() {
   }
-
+  a=this.element2+this.element2
 }
