@@ -3,8 +3,14 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <p>
-    poomani
-  </p>
-  <app-message-box></app-message-box>
- 
+  <div>
+    mounths:
+    <select (change)="chemon($event)"name="month">
+      <option *ngFor="let i of mounths">{{i}}</option>
+    </select>
+  </div>
+  <div>
+    <span *ngIf="isava; else con1">condition is true</span>
+  <ng-template #con1>false</ng-template>
+  </div>
+  <app-design></app-design>

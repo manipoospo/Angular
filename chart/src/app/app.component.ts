@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: `
-                <h1>{{ fullName }}</h1>
-              `
-})
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss']
+  })
+
 export class AppComponent {
-    fullName: string = 'Martin Luther King Jr';
+   title='learn';
+   mounths=["jan","fib","mar","etc"];
+   isava=false;
+   chemon(event){
+       alert("month is changed");
+   }
 }
