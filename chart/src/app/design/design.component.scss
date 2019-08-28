@@ -1,0 +1,67 @@
+.imag
+{
+    width: 10%;
+    position: absolute;
+}
+.pline{
+    width: 50%;
+    position: absolute;
+    border-right-width: 10px;
+    right: 24%;
+        padding-top: 8%;
+}
+#imag0{
+    position: absolute;
+    left: 17%;
+}
+#imag1{
+    position: absolute;
+    left: 32%;
+}
+#imag2{
+    position: absolute;
+    left: 46%;
+}
+#imag3{
+    position: absolute;
+    left: 61%;
+}
+#imag4{
+    position: absolute;
+    left: 75%;
+}
+.logo{
+   width: 3%;
+   padding-top:3%;
+   padding-left:3.5%;
+}
+.falogo{
+    padding-top: 3.9%;
+}
+.fai{
+    padding-top: 3.2%;
+}
+.falog{
+    padding-top: 3.5%;
+}
+.comdiv1 .imagc:hover{
+    
+		-webkit-animation: rotation 2s ;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(90deg);
+		}
+}
+.cls{
+    padding-top:5%
+}
+.imaga:hover{
+    
+    -webkit-animation: rotation 2s;
+}
+
