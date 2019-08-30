@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.square-set {
+  color: WHITE;
+  background: darkgrey;
+  height: 200px;
+  position: relative;
+  border-radius: 15px;
+  font:  Helvetica ;
+  width: 420px;
+}
+.square {
+  background: green;
+  height: 80px;
+  position: absolute;
+  width: 80px;
+  border-radius: 15px;
+  line-height: 60px;
+}
+.square-1 {
+  top: 10%;
+  left: 6%;
+}
+.square-2 {
+  top: 5;
+  right: -20px;
+}
+.square-3 {
+  bottom: -15px;
+  right: 40px;
+}
+.square-4 {
+  bottom: 0;
+}
+</style>
+</head>
+<body>
+<div class="square-set">
+  <figure class="square square-1">SQUARE 1</figure>
+  <figure class="square square-2">SQUARE 2</figure>
+  <figure class="square square-3">SQUARE 3</figure>
+  <figure class="square square-4">SQUARE 4</figure>
+</div>
+</body>
+</html>
