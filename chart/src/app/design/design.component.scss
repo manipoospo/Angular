@@ -1,39 +1,43 @@
-.imag
-{
-    width: 10%;
-    position: absolute;
-}
 .pline{
     width: 50%;
     position: absolute;
     border-right-width: 10px;
     right: 24%;
         padding-top: 8%;
+}.comdiv1{
+   // position: absolute;
+    left: 19%;
+    width: 100%;
+    height: auto;
 }
-#imag0{
-    position: absolute;
-    left: 17%;
+.comdiv2{
+  //  position: absolute;
+    left: 33%;
+    width: 100%;
+    height: auto;
 }
-#imag1{
-    position: absolute;
-    left: 32%;
+.comdiv3{
+    left: 47%;
+    width: 100%;
+    height: auto;
 }
-#imag2{
-    position: absolute;
-    left: 46%;
-}
-#imag3{
-    position: absolute;
+.comdiv4{
+   // position: absolute;
     left: 61%;
+    width: 100%;
+    height: auto;
 }
-#imag4{
-    position: absolute;
+.comdiv5{
+   // position: absolute;
     left: 75%;
+    width: 100%;
+    height: auto;
 }
 .logo{
-   width: 3%;
-   padding-top:3%;
-   padding-left:3.5%;
+   width: 20%;
+   top: 37%;
+   position: absolute;
+   left: 38%;
 }
 .falogo{
     padding-top: 3.9%;
@@ -44,24 +48,53 @@
 .falog{
     padding-top: 3.5%;
 }
-.comdiv1 .imagc:hover{
-    
-		-webkit-animation: rotation 2s ;
-}
 
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(90deg);
-		}
-}
 .cls{
     padding-top:5%
 }
-.imaga:hover{
-    
-    -webkit-animation: rotation 2s;
+
+.comdiv2:hover .imag,.comdiv4:hover .imag{
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
 }
 
+.comdiv1,.comdiv2,.comdiv3,.comdiv4,.comdiv5{
+
+        width: 9%;
+        height: auto;
+        float: left;
+        padding: 3px;
+        position: absolute;
+
+    }
+.imag{
+    width: 100%;
+height:auto;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+.comdiv1:hover .imag,.comdiv3:hover .imag,.comdiv5:hover .imag{
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+}
+
+.cls{
+    width: 100%;
+    height: auto;
+    padding-top:30px;
+}
+.text {
+     width: 109%;
+    height: auto;
+    float: left;
+}
+.text1,.text2,.text3{
+    width: 225px;
+    height: auto;
+    float: left;
+    padding: 3px;
+   // position: absolute;   
+}
+.textimg1{
+    width: 109%;
+}
